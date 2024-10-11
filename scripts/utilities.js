@@ -13,7 +13,7 @@ const countDown = () => {
 }
 
 
-//loading indicator and functionality
+//loading indicator and function
 const loading = () => {
     const loader = document.getElementById('loader');
     const diaplayPet = document.getElementById('display-pet');
@@ -25,7 +25,7 @@ const loading = () => {
     }, 2000);
 }
 
-//Remove all active button
+//Remove active button
 const removeActiveButton = () => {
     const buttons = document.getElementsByClassName('category-btn');
     for (btn of buttons) {

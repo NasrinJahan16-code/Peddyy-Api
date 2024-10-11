@@ -88,7 +88,7 @@ const displayPet = (data) => {
     loading();
     allPet = data; //Keeping track of pet
     const petContainer = document.getElementById('display-pet');
-    petContainer.innerHTML = ''; // Clear previous content before adding new one
+    petContainer.innerHTML = ''; 
     if (data.length === 0) {
         petContainer.classList.add("bg-base-200", "rounded-lg", "p-5", "md:p-24");
         petContainer.innerHTML = `

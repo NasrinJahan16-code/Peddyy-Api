@@ -1,5 +1,5 @@
 
-// loadPetCategory-button
+// loadPetCategory
 const loadPetCategory = async () => {
     try {
         const fetching = ('https://openapi.programming-hero.com/api/peddy/categories');
